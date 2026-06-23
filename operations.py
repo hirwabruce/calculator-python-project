@@ -1,13 +1,13 @@
-def addition(x, y):
-    return x + y
+def addition(x,y):
+    return  x + y
 
-def subtraction(x, y):
+def subtraction(x,y):
     return x - y
 
-def multiplication(x, y):
+def multiplication(x,y):
     return x * y
 
-def division(x, y):
+def division(x,y):
     if y == 0:
         raise ValueError("Denominator cannot be zero")
     return x / y
